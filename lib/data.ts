@@ -55,7 +55,7 @@ export const experiencesData = [
     title: "Director of Sports",
     location: "NUS Pioneer House",
     description:
-      "I was appointed of Chief Sports Officer of NUS Pioneer House. I manage a team of 20 CCA Leaders and 15 Committee Members, to lead, manage and plan events",
+      "I was appointed Chief Sports Officer of NUS Pioneer House. I manage a team of 20 CCA Leaders and 15 Committee Members, to lead, manage and plan events",
     icon: React.createElement(LuAperture),
     date: "2024 - Present",
   },
@@ -63,7 +63,7 @@ export const experiencesData = [
     title: "Data Analyst Intern",
     location: "KABAM Robotics",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I joined KABAM Robotics as a Data Analyst, where I developed and provided interactive Tableau dashboards. With over 3 months of Tableau expertise, I was able to transform complex data into actionable intelligence, enabling data-driven decision-making across multiple departments.",
     icon: React.createElement(FaReact),
     date: "2024 Summer",
   },
