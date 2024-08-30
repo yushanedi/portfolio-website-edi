@@ -3,12 +3,15 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import profile from "@/public/profile.jpg"; // Adjust the path if needed
+
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -31,7 +34,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/profile.jpg"
+              src={profile}    
               alt="Ricardo portrait"
               width="192"
               height="192"
