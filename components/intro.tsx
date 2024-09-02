@@ -68,7 +68,7 @@ export default function Intro() {
         <span className="font-bold">Hello! I’m Edison, a second year student at NUS!</span>
         {" "} I'm currently studying <span className="italic">Business Analytics with a specialisation in Machine Learning and Finance!</span>
         {" "}
-        I’m passionate about data and enjoy <span className="underline">analysing data and solving problems</span> 
+        I’m passionate about data and enjoy <span className="underline">analysing data and solving problems!</span> 
       </motion.h1>
 
       <motion.div
