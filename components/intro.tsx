@@ -10,7 +10,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import profile from "@/public/profile.jpeg"; // Adjust the path if needed
+import profile from "@/public/profile.jpeg";
 
 
 export default function Intro() {
