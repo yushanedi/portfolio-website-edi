@@ -6,6 +6,8 @@ import { LuAperture } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import sepproject from "@/public/sepproject.png"; // Adjust the path if needed
+
 
 export const links = [
   {
@@ -72,11 +74,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "NUS Student Exchange Mapping Tool",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    tags: ["TableAu", "MySQL", "JavaScript"],
+    imageUrl: sepproject,
+    link: "https://public.tableau.com/views/SEPMappingTool/Main?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link", // Add the link here
   },
   {
     title: "rmtDev",
@@ -84,6 +87,7 @@ export const projectsData = [
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
+    link: "https://www.rmtdev.com", // Add the link here
   },
   {
     title: "Word Analytics",
@@ -91,14 +95,8 @@ export const projectsData = [
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
+    link: "https://www.wordanalytics.com", // Add the link here
+  }
 ] as const;
 
 export const skillsData = [

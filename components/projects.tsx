@@ -1,4 +1,4 @@
-"use client";
+"use client"; // Add this at the top
 
 import React from "react";
 import SectionHeading from "./section-heading";
@@ -15,7 +15,14 @@ export default function Projects() {
       <div>
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
-            <Project {...project} />
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block"
+            >
+              <Project {...project} />
+            </a>
           </React.Fragment>
         ))}
       </div>
