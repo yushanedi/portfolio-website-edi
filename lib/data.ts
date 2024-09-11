@@ -3,10 +3,9 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { LuAperture } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 import sepproject from "@/public/sepproject.png"; // Adjust the path if needed
+import cetap from "@/public/cetap.png"; // Adjust the path if needed
+
 
 
 export const links = [
@@ -80,6 +79,14 @@ export const projectsData = [
     tags: ["TableAu", "MySQL", "JavaScript"],
     imageUrl: sepproject,
     link: "https://public.tableau.com/views/SEPMappingTool/Main?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link", // Add the link here
+  },
+  {
+    title: "Business Performance Dashboard",
+    description:
+      "During my previous internship, I designed an interactive business dashboard to analyse data and breakdown insights",
+    tags: ["TableAu", "MySQL", "Google Script"],
+    imageUrl: cetap,
+    link: "https://public.tableau.com/views/EngineeringOperationsDashboard_17260835366130/Template?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link", // Add the link here
   },
 ] as const;
 
