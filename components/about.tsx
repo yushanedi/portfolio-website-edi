@@ -34,7 +34,7 @@ export default function About() {
       </div>
 
       <p className="mb-3">
-        Hi, I’m Edison, <span className="italic">a data science enthusiast</span> currently pursuing a <span className="font-bold">Bachelor of Science in Business Analytics with Honours at the National University of Singapore (NUS).</span> With a strong academic foundation and a <span className="font-bold">specialization in Machine Learning and Finance</span>, I’ve honed my skills in data management, visualization, and advanced analytics techniques.
+        Hi, I’m Edison, <span className="italic">a data science enthusiast</span> currently pursuing a <span className="font-bold">Bachelor of Science in Business Analytics with Honours at the National University of Singapore (NUS).</span> As a NUS Computing Student with an <span className="font-bold">specialization in Machine Learning and Finance</span>, I’ve honed my skills in data management, visualization, and advanced analytics techniques.
       </p>
 
       <p className="mb-3">
