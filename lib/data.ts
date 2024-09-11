@@ -76,7 +76,7 @@ export const projectsData = [
   {
     title: "NUS Student Exchange Mapping Tool",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "I created a Student Exchange Mapping Tool designed to help NUS Computing Students plan and map out their academic journey overseas.",
     tags: ["TableAu", "MySQL", "JavaScript"],
     imageUrl: sepproject,
     link: "https://public.tableau.com/views/SEPMappingTool/Main?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link", // Add the link here
