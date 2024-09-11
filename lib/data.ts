@@ -80,6 +80,7 @@ export const projectsData = [
     imageUrl: sepproject,
     link: "https://public.tableau.com/views/SEPMappingTool/Main?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link", // Add the link here
   },
+  
   {
     title: "Business Performance Dashboard",
     description:
